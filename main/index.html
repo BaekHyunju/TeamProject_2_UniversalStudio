@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +11,7 @@
     <link rel="stylesheet" href="web.css">
     <link rel="stylesheet" href="app.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-    
+
     <!--퍼레이드 캐러셀 슬라이드 관련-->
     <!-- <link rel="stylesheet" href="./slick.css"/>
     <link rel="stylesheet" href="./slick-theme.css"/>
@@ -18,21 +19,22 @@
     <!-- 스와이퍼 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <!-- 애니메이트.css 적용 -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- AOS 라이브러리 -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
+
 <body class="snap-on stop-scrolling">
     <!--헤더-->
     <header id="main_header">
         <ul class="top_menu">
-            <div class="logo">
+            <li class="logo">
                 <img class="logo_white" src="img/로고_화이트_최종.png" alt="유니버셜스튜디오 한국버전 로고">
                 <img class="logo_gray" src="img/로고_2f2f2f.png" alt="유니버셜스튜디오 한국버전 로고">
-            </div>
-            <div class="main_menu_container">
+            </li>
+            <ul class="main_menu_container">
                 <li>
                     <a href="#" class="menu_bar">요금혜택</a>
                     <ul class="menu_bar_submenu">
@@ -73,12 +75,12 @@
                         <li><a href="#">고객소리함</a></li>
                     </ul>
                 </li>
-            </div>
+            </ul>
             <div class="right_menu">
                 <div class="menu_icon">
                     <img class="search_icon_white" src="img/icon/search_end.png" alt="검색 아이콘">
                     <img class="search_icon_gray" src="img/icon/search_blacck.png" alt="검색 아이콘콘">
-                </div> 
+                </div>
                 <div class="menu_icon">
                     <img class="ticket_icon_white" src="img/icon/ticket2.png" alt="이용권 구매 아이콘">
                     <img class="ticket_icon_gray" src="img/icon/ticket_black.png" alt="이용권 구매 아이콘">
@@ -91,20 +93,30 @@
                     <div class="main_header_tab_app">
                         <nav role="c">
                             <div id="menuToggle">
-                              <input type="checkbox"/>
-                              <span></span>
-                              <span></span>
-                              <span></span>
-                              <ul id="menu">
-                                <a href="#"><li>요금혜택</li></a>
-                                <a href="#"><li>즐길거리</li></a>
-                                <a href="#"><li>추천코스</li></a>
-                                <a href="#"><li>소통서비스</li></a>
-                                <a href="#"><li>이용가이드</li></a>
-                              </ul>
+                                <input type="checkbox" />
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <ul id="menu">
+                                    <a href="#">
+                                        <li>요금혜택</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>즐길거리</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>추천코스</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>소통서비스</li>
+                                    </a>
+                                    <a href="#">
+                                        <li>이용가이드</li>
+                                    </a>
+                                </ul>
                             </div>
-                          </nav>
-                      </div>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </ul>
@@ -125,7 +137,8 @@
                     <!-- 인터넷 연결 되야 영상 재생 됨.
                         <iframe allow="autoplay; fullscreen" allowfullscreen="" src="./img/ESTsecurity_Earth from ESTsoft on Vimeo.html" style="border: none"></iframe>
                     -->
-                    <iframe allow="autoplay; fullscreen" allowfullscreen="" src="https://player.vimeo.com/video/346991810?background=1&autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1"></iframe>
+                    <iframe allow="autoplay; fullscreen" allowfullscreen=""
+                        src="https://player.vimeo.com/video/346991810?background=1&autoplay=1&loop=1&title=0&byline=0&portrait=0&muted=1"></iframe>
                     <img class="blue_effect" src="img/web/blueEff.png" alt="파란색 효과">
                     <div class="usk_title_name">UNIVERSAL STUDIO</div>
                 </div>
@@ -150,7 +163,7 @@
                                     </div>
                                     <div><i class="fa-solid fa-angle-down arrow_small"></i></div>
                                 </div>
-<!-- 
+                                <!-- 
                                 <div class="fast_buy_coc ticket_age">
                                     <div><i class="fa-regular fa-user buy_icon"></i></div>
                                     <div>    
@@ -202,60 +215,69 @@
             </div>
 
 
-            
+
             <!--할인혜택 페이지-->
             <div class="main_section full2">
                 <div class="main_section_top benefit_title_total">
-                    <div data-aos="fade-down" class="main_title benefit"data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1000">할인혜택</div>
+                    <div data-aos="fade-down" class="main_title benefit" data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1000">할인혜택</div>
                     <div class="main_All benefit2">All Benefits ></div>
                 </div>
                 <div class="main_section_bottom benefit_content_total">
                     <div data-aos="flip-left" class="benefit_flip">
                         <div class="main_img benefit3">
-                            <img class="benefit_front" src="img/web/현대카드 3.png" alt="현대카드 할인혜택">
-                            <div class="benefit_text">현대카드 할인<p>2인 50% 할인</p></div>
+                            <img class="benefit_front" src="img/web/hyundai.png" alt="현대카드 할인혜택">
+                            <div class="benefit_text">현대카드 할인<p>2인 50% 할인</p>
+                            </div>
                         </div>
                     </div>
                     <div data-aos="flip-left" class="benefit_flip">
                         <div class="main_img benefit3">
-                            <img class="benefit_front" src="img/web/KT멤버십카드 1.png" alt="KT멤버십 할인혜택">
-                            <div class="benefit_text">KT 멤버십 할인<p>본인 33% 할인</p></div>
+                            <img class="benefit_front" src="img/web/KT.png" alt="KT멤버십 할인혜택">
+                            <div class="benefit_text">KT 멤버십 할인<p>본인 33% 할인</p>
+                            </div>
                         </div>
                     </div>
                     <div data-aos="flip-left" class="benefit_flip">
                         <div class="main_img benefit3">
-                            <img class="benefit_front" src="img/web/T멤버십카드 1.png" alt="T멤버십 할인혜택">
-                            <div class="benefit_text">T 멤버십 할인<p>본인 33% 할인</p></div>
+                            <img class="benefit_front" src="img/web/T.png" alt="T멤버십 할인혜택">
+                            <div class="benefit_text">T 멤버십 할인<p>본인 33% 할인</p>
+                            </div>
                         </div>
                     </div>
                     <div data-aos="flip-left" class="benefit_flip">
                         <div class="main_img benefit3">
-                            <img class="benefit_front" src="img/web/LGU+멤버십카드 1.png" alt="LGU+ 할인혜택">
-                            <div class="benefit_text">LGU+멤버십 할인<p>본인 33% 할인</p></div>
+                            <img class="benefit_front" src="img/web/LGU+.png" alt="LGU+ 할인혜택">
+                            <div class="benefit_text">LGU+멤버십 할인<p>본인 33% 할인</p>
+                            </div>
                         </div>
                     </div>
                     <div data-aos="flip-left" class="benefit_flip">
                         <div class="main_img benefit3">
-                            <img class="benefit_front" src="img/web/토끼띠 할인.png" alt="토끼띠 할인혜택">
-                            <div class="benefit_text">토끼띠 할인<p>본인 50% 할인</p></div>
+                            <img class="benefit_front" src="img/web/토끼띠할인.png" alt="토끼띠 할인혜택">
+                            <div class="benefit_text">토끼띠 할인<p>본인 50% 할인</p>
+                            </div>
                         </div>
                     </div>
                     <div data-aos="flip-left" class="benefit_flip">
                         <div class="main_img benefit3">
                             <img class="benefit_front" src="img/web/문화누리카드할인.png" alt="문화누리카드 할인혜택">
-                            <div class="benefit_text">문화누리카드 할인<p>본인 50% 할인</p></div>
-                        </div>        
-                    </div>
-                    <div data-aos="flip-left" class="benefit_flip">
-                        <div class="main_img benefit3">
-                            <img class="benefit_front" src="img/web/장애인할인 1.png" alt="장애인 할인혜택">
-                            <div class="benefit_text">장애인 할인<p>본인 50% 할인</p></div>
+                            <div class="benefit_text">문화누리카드 할인<p>본인 50% 할인</p>
+                            </div>
                         </div>
                     </div>
                     <div data-aos="flip-left" class="benefit_flip">
                         <div class="main_img benefit3">
-                            <img class="benefit_front" src="img/web/국가유공자할인 1.png" alt="국가유공자 할인혜택">
-                            <div class="benefit_text">국가유공자 할인<p>본인 50% 할인</p></div>
+                            <img class="benefit_front" src="img/web/장애인할인.png" alt="장애인 할인혜택">
+                            <div class="benefit_text">장애인 할인<p>본인 50% 할인</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="flip-left" class="benefit_flip">
+                        <div class="main_img benefit3">
+                            <img class="benefit_front" src="img/web/국가유공자할인.png" alt="국가유공자 할인혜택">
+                            <div class="benefit_text">국가유공자 할인<p>본인 50% 할인</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -265,7 +287,8 @@
             <div class="main_section full3">
                 <div class="main_section_top attraction_title_total">
 
-                    <div class="main_title attraction" data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1000">BEST ATTRACTION</div>
+                    <div class="main_title attraction" data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1000">BEST ATTRACTION</div>
                     <div class="main_All attraction2">All Attraction ></div>
 
                 </div>
@@ -277,8 +300,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="main_attraction_small"data-aos="fade-left">
-                        
+                    <div class="main_attraction_small" data-aos="fade-left">
+
                         <div class="att_s1 att_s">
                             <div class="att_box d-none">
                                 <div class="att_s1_txt att_title">
@@ -292,7 +315,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="att_s2 att_s">
                             <div class="att_box d-none">
                                 <div class="att_s2_txt att_title">
@@ -365,77 +388,78 @@
             <!--퍼레이드 페이지-->
             <div class="main_section full4">
                 <div class="main_section_top parade_title_total">
-                    <div class="main_title parade" data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1000">PARADE</div>
+                    <div class="main_title parade" data-aos="fade-down" data-aos-easing="linear"
+                        data-aos-duration="1000">PARADE</div>
                     <div class="main_All parade2">All Parades ></div>
                 </div>
                 <div>
-                    <div class="swiper mySwiper"data-aos="zoom-in">
+                    <div class="swiper mySwiper" data-aos="zoom-in">
                         <div class="swiper-wrapper">
-                          <!-- 1 -->
-                          <div class="swiper-slide">
-                            <div class="back">
-                                <img src="img/web/퍼레이드_마리오.png" alt="마리오 퍼레이드">
+                            <!-- 1 -->
+                            <div class="swiper-slide">
+                                <div class="back">
+                                    <img src="img/web/퍼레이드_마리오.png" alt="마리오 퍼레이드">
+                                </div>
+                                <div class="parade_text_box d-none">
+                                    <div class="parade_text_title">마리오 어드벤처</div>
+                                    <div class="parade_text_content">유니버셜 스튜디오를 대표하는 메이져 <br>
+                                        어트랙션을 테마로 한 판타지 퍼레이드</div>
+                                    <div class="parade_text_time">13:00</div>
+                                </div>
+
                             </div>
-                            <div class="parade_text_box d-none">
-                                <div class="parade_text_title">마리오 어드벤처</div>
-                                <div class="parade_text_content">유니버셜 스튜디오를 대표하는 메이져 <br>
-                                어트랙션을 테마로 한 판타지 퍼레이드</div>
-                                <div class="parade_text_time">13:00</div>
+                            <!-- 2 -->
+                            <div class="swiper-slide">
+                                <div class="back">
+                                    <img src="img/web/퍼레이드_쥬라기.png" alt="쥬라기월드 퍼레이드">
+                                </div>
+                                <div class="parade_text_box d-none">
+                                    <div class="parade_text_title">쥬라기 미라클 퍼레이드</div>
+                                    <div class="parade_text_content">어드벤쳐 비밀 공간 '쥬라기공원'에 숨겨진<br>
+                                        5개의 미스테리를 찾아 떠나는 모험!</div>
+                                    <div class="parade_text_time">15:00</div>
+                                </div>
                             </div>
-                            
-                        </div> 
-                          <!-- 2 -->
-                          <div class="swiper-slide">
-                            <div class="back">
-                                <img src="img/web/퍼레이드_쥬라기.png" alt="쥬라기월드 퍼레이드">
+                            <!-- 3 -->
+                            <div class="swiper-slide">
+                                <div class="back">
+                                    <img src="img/web/퍼레이드_미니언즈.png" alt="미니언즈 퍼레이드">
+                                </div>
+                                <div class="parade_text_box d-none">
+                                    <div class="parade_text_title">미니언즈 판타지아</div>
+                                    <div class="parade_text_content">미니언즈가 펼쳐 보이는 별빛 마법의 세계! <br>
+                                        스펙타클한 환상의 퍼레이드!</div>
+                                    <div class="parade_text_time">17:00</div>
+                                </div>
                             </div>
-                            <div class="parade_text_box d-none">
-                                <div class="parade_text_title">쥬라기 미라클 퍼레이드</div>
-                                <div class="parade_text_content">어드벤쳐 비밀 공간 '쥬라기공원'에 숨겨진<br>
-                                5개의 미스테리를 찾아 떠나는 모험!</div>
-                                <div class="parade_text_time">15:00</div>
+                            <!-- 4 -->
+                            <div class="swiper-slide">
+                                <div class="back">
+                                    <img src="img/web/퍼레이드_트랜스포머.png" alt="트랜스포머 퍼레이드">
+                                </div>
+                                <div class="parade_text_box d-none">
+                                    <div class="parade_text_title">쥬라기 미라클 퍼레이드</div>
+                                    <div class="parade_text_content">어드벤쳐 비밀 공간 '쥬라기공원'에 숨겨진<br>
+                                        5개의 미스테리를 찾아 떠나는 모험!</div>
+                                    <div class="parade_text_time">19:00</div>
+                                </div>
                             </div>
+                            <!-- 5 -->
+                            <div class="swiper-slide">
+                                <div class="back">
+                                    <img src="img/web/퍼레이드_해리포터.png" alt="해리포터 퍼레이드">
+                                </div>
+                                <div class="parade_text_box d-none">
+                                    <div class="parade_text_title">렛츠 해리포터 나이트</div>
+                                    <div class="parade_text_content">해리포터가 펼쳐 보이는 별빛 마법의 세계!<br>
+                                        스펙타클한 환상의 나이트 퍼레이드!</div>
+                                    <div class="parade_text_time">21:00</div>
+                                </div>
+                            </div>
+
                         </div>
-                          <!-- 3 -->
-                          <div class="swiper-slide">
-                            <div class="back">
-                                <img src="img/web/퍼레이드_미니언즈.png" alt="미니언즈 퍼레이드">
-                            </div>
-                            <div class="parade_text_box d-none">
-                                <div class="parade_text_title">미니언즈 판타지아</div>
-                                <div class="parade_text_content">미니언즈가 펼쳐 보이는 별빛 마법의 세계! <br>
-                                스펙타클한 환상의 퍼레이드!</div>
-                                <div class="parade_text_time">17:00</div>
-                            </div>
-                        </div>
-                          <!-- 4 -->
-                          <div class="swiper-slide">
-                            <div class="back">
-                                <img src="img/web/퍼레이드_트랜스포머.png" alt="트랜스포머 퍼레이드">
-                            </div>
-                            <div class="parade_text_box d-none">
-                                <div class="parade_text_title">쥬라기 미라클 퍼레이드</div>
-                                <div class="parade_text_content">어드벤쳐 비밀 공간 '쥬라기공원'에 숨겨진<br>
-                                5개의 미스테리를 찾아 떠나는 모험!</div>
-                                <div class="parade_text_time">19:00</div>
-                            </div>
-                        </div>
-                          <!-- 5 -->
-                          <div class="swiper-slide">
-                            <div class="back">
-                                <img src="img/web/퍼레이드_해리포터.png" alt="해리포터 퍼레이드">
-                            </div>
-                            <div class="parade_text_box d-none">
-                                <div class="parade_text_title">렛츠 해리포터 나이트</div>
-                                <div class="parade_text_content">해리포터가 펼쳐 보이는 별빛 마법의 세계!<br>
-                                스펙타클한 환상의 나이트 퍼레이드!</div>
-                                <div class="parade_text_time">21:00</div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
-                    <div class="swiper-pagination"></div>
+
+                        <div class="swiper-pagination"></div>
                     </div>
                     <!-- <div class="main_section_bottom parade_content_total"data-aos="zoom-in">
                         <div class="main_parade for_slick_slider multiple-items">
@@ -496,11 +520,11 @@
                     </div> -->
                     <div id="parade_now_date"></div>
                 </div>
-               
+
             </div>
 
 
-                <!--푸터-->
+            <!--푸터-->
             <footer class="main_section footer">
                 <div class="footer_section_total">
                     <div class="footer_content_left">
@@ -514,9 +538,9 @@
                                 <span class="footer_use_import">개인정보처리방침</span>
                                 <span>위치기반서비스 이용약관</span>
                                 <span>법적고지</span>
-                                <span>사업자정보확인</span> 
+                                <span>사업자정보확인</span>
                             </div>
-                            <div class="footer_copyright">Copyright ⓒ Universal Studio. All Rights Reserved.</div> 
+                            <div class="footer_copyright">Copyright ⓒ Universal Studio. All Rights Reserved.</div>
                         </div>
                     </div>
                     <div class="footer_content_right">
@@ -538,54 +562,55 @@
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
-   
+
         var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 'auto',
-        spaceBetween: 20,
-        centeredSlides: true,
-        preventClicks:true,
-        loop:true,
-        breakpoints: {
-        768: {
-          spaceBetween: 35
-        }
-      },
-    
-        on: {
-        init: function () {
-          console.log('swiper initialized');
-        },
-      },
-          
+            slidesPerView: 'auto',
+            spaceBetween: 20,
+            centeredSlides: true,
+            preventClicks: true,
+            loop: true,
+            breakpoints: {
+                768: {
+                    spaceBetween: 35
+                }
+            },
+
+            on: {
+                init: function () {
+                    console.log('swiper initialized');
+                },
+            },
+
         });
 
         window.addEventListener('load', e => {
             const now = new Date();
             const hour = now.getHours();
             const min = now.getMinutes();
-            if(hour < 15) {
+            if (hour < 15) {
                 swiper.slideTo(5);
-            } else if(hour < 17) {
+            } else if (hour < 17) {
                 swiper.slideTo(6);
-            } else if(hour < 19) {
+            } else if (hour < 19) {
                 swiper.slideTo(7);
-            } else if(hour < 21) {
+            } else if (hour < 21) {
                 swiper.slideTo(8);
             } else {
                 swiper.slideTo(5);
             }
             console.log(hour);
         });
-      </script>
+    </script>
     <script src="main.js"></script>
 
-    
+
     <!-- 스크롤 효과 라이브러리 -->
-    <script> 
+    <script>
         AOS.init(); // 자바스크립트로 init()을 해야 동작한다.
     </script>
 
 </body>
+
 </html>

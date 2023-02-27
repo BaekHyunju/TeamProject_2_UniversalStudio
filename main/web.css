@@ -79,7 +79,9 @@
 body { overflow-x: hidden; 
 }
 
-
+li {
+    list-style-type: none;
+}
 .parade_text_box{
     width: 80%;
     height: 170px;
@@ -708,7 +710,9 @@ body { overflow-x: hidden;
         cursor: pointer;
         border-radius: 15px;
     }
-
+    .att_s{
+        cursor: pointer;
+    }
     .att_s1 {
         width: 250px;
         height: 250px;
