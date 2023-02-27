@@ -92,6 +92,7 @@ li {
     align-items: center;
     justify-items: center;
     position: absolute;
+    cursor: pointer;
 }
       
 .parade_text_title{
